@@ -1,0 +1,42 @@
+.agendar-citas-container {
+    background-color: #ff9dbb; /* Color rosa */
+    color: white; /* Texto en blanco */
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  select,
+  input,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #ff5c8d; /* Color rosa más oscuro para el botón */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media screen and (max-width: 600px) {
+    .agendar-citas-container {
+      width: 80%;
+    }
+  }
+  

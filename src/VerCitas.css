@@ -1,0 +1,64 @@
+/* VerCitas.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ff66b2; /* Rosa */
+  text-align: center;
+}
+
+h3 {
+  color: #ff66b2; /* Rosa */
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ver-citas-item {
+  background-color: #ffe6f2; /* Rosa claro */
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ff66b2; /* Borde del mismo color rosa */
+}
+
+.ver-citas-item:hover {
+  background-color: #ffc2e0; /* Rosa más claro al pasar el ratón */
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .ver-citas-item {
+    padding: 10px;
+  }
+}

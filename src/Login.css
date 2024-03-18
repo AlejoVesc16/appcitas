@@ -1,0 +1,39 @@
+/* Login.css */
+.login-container {
+    background-color: #ff9dbb; /* Color rosa */
+    color: white; /* Texto en blanco */
+    padding: 20px; /* Aumenté el padding para más espacio */
+    border-radius: 8px;
+    width: 50%; /* Reducción del ancho a la mitad */
+    margin: auto;
+    margin-top: 100px; /* Ajusta según sea necesario */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Centra el contenido */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  input {
+    margin-bottom: 15px; /* Ajuste el margen inferior */
+    padding: 10px; /* Aumente el padding */
+    font-size: 16px; /* Tamaño de fuente ajustado */
+    width: 80%; /* Ancho del 80% del contenedor */
+    box-sizing: border-box;
+    display: block;
+    margin: auto; /* Centra el elemento */
+  }
+  
+  button {
+    background-color: #ff5c8d; /* Color rosa más oscuro para el botón */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%; /* Ancho del 80% del contenedor */
+    display: block;
+    margin: auto; /* Centra el elemento */
+  }
+  
